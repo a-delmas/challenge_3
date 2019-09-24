@@ -1,0 +1,13 @@
+body {
+    width: 1280px;
+    margin: auto;
+}
+
+* {
+    font-family: 'News Cycle', sans-serif;
+}
+
+nav, ul, li {
+    display: inline;
+
+}
