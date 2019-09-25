@@ -1,14 +1,14 @@
 var sandwich = document.getElementById("menutel"); 
-var nav = document.getElementsByTagName("nav")[0];
+var ul = document.getElementsByTagName("ul")[0];
 
 sandwich.addEventListener("click" , function(){
 
-    if(nav.style.display=="initial"){
-        nav.style.display="none";
+    if(ul.style.display=="initial"){
+        ul.style.display="none";
     }   
 
     else{
-        nav.style.display="initial";
+        ul.style.display="initial";
     }
 
 })
