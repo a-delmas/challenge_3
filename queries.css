@@ -38,7 +38,7 @@
         width: 15%;
     }
 
-    #first:nth-child(1n) {
+    article:nth-child(1n) img {
         display: none;
     }
 }
