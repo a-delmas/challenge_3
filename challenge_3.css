@@ -9,11 +9,26 @@ header , #second , footer {
 body {
     max-width: 1280px;
     margin: auto;
+    text-align: center;
 }
 
-h1 , nav, li {
+h1 , ul, li {
     display: inline-block;
-    margin-left: 5rem;
+}
+
+h1 {
+    width: 20%;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+ul {
+    width: 75%;
+    text-align: right;
+}
+
+li {
+    padding-right: 2rem;
 }
 
 li > a {
@@ -61,9 +76,9 @@ a {
 }
 
 p {
-    font-size: 15px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+
+    margin-top: 1.8rem;
+    margin-bottom: 3rem;
 }
 
 #first {
@@ -72,13 +87,15 @@ p {
     padding: 5rem;
 }
 
-.btnone {
-    background-color: #2B3F48;
-    color: white;
+.btnone, .btntwo, .btwthree {
     padding: 1rem;
     border-radius: 5px 5px; 
     margin-top: .5rem;
-    margin-left: 43.5%;
+}
+
+.btnone {
+    background-color: #2B3F48;
+    color: white;
 }
 
 #second {
@@ -88,10 +105,6 @@ p {
 .btntwo {
     background-color: #27AE61;
     color: white;
-    padding: 1rem;
-    border-radius: 5px 5px; 
-    margin-top: .5rem;
-    margin-left: 43.5%;
 }
 
 #third {
@@ -102,10 +115,6 @@ p {
 .btnthree {
     background-color: white;
     color: #27AE61;
-    padding: 1rem;
-    border-radius: 5px 5px; 
-    margin-top: .5rem;
-    margin-left: 43.5%;
 }
 
 footer {
