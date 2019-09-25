@@ -21,9 +21,20 @@ img {
 }
 
 a {
-    margin-left: 45%;
+    text-decoration: none;
 }
 
+a:hover {
+    color: #27AE61;
+}
+
+p {
+    font-size: 15px;
+}
+
+p:nth-child(2n+0) {
+    color: white;
+}
 
 #first {
     background-color: #27AE61;
@@ -32,8 +43,30 @@ a {
 }
 
 .btnone {
-    background-color: black;
+    background-color: #2B3F48;
     color: white;
+    padding: 1rem;
+    border-radius: 5px 5px; 
+    margin-top: .5rem;
+    margin-left: 45%;
+}
+
+.btntwo {
+    background-color: #27AE61;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px 5px; 
+    margin-top: .5rem;
+    margin-left: 45%;
+}
+
+.btnthree {
+    background-color: white;
+    color: #27AE61;
+    padding: 1rem;
+    border-radius: 5px 5px; 
+    margin-top: .5rem;
+    margin-left: 45%;
 }
 
 body {
