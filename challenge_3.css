@@ -6,39 +6,65 @@ header , #second , footer {
     background-color: #e6e6e6;
 }
 
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+
 h1 , nav, li {
     display: inline-block;
     margin-left: 5rem;
 }
 
+li > a {
+    color: #2B3F48;
+}
+
+li > a:hover {
+    color: #27AE61;
+}
 
 img {
     border-radius: 50%;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+section:nth-child(2n+1) h2,
+section:nth-child(2n+1) p {
+    color: white;
+}
+
+h3 {
+    color: #cacacab4;
+    margin-top: 0;
 }
 
 #grpimg , h2 , h3 , p {
     text-align: center;
 }
 
+section > a:hover {
+    color: blueviolet;
+}
+
 a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #27AE61;
-}
-
 p {
     font-size: 15px;
-}
-
-p:nth-child(2n+0) {
-    color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 #first {
+    background: center /  cover no-repeat url("images/banner.png");
     background-color: #27AE61;
-    background-image:  url("images/banner.png");
     padding: 5rem;
 }
 
@@ -48,7 +74,11 @@ p:nth-child(2n+0) {
     padding: 1rem;
     border-radius: 5px 5px; 
     margin-top: .5rem;
-    margin-left: 45%;
+    margin-left: 43.5%;
+}
+
+#second {
+    padding: 5rem;
 }
 
 .btntwo {
@@ -57,7 +87,12 @@ p:nth-child(2n+0) {
     padding: 1rem;
     border-radius: 5px 5px; 
     margin-top: .5rem;
-    margin-left: 45%;
+    margin-left: 43.5%;
+}
+
+#third {
+    background-color: #27AE61;
+    padding: 5rem;
 }
 
 .btnthree {
@@ -66,21 +101,7 @@ p:nth-child(2n+0) {
     padding: 1rem;
     border-radius: 5px 5px; 
     margin-top: .5rem;
-    margin-left: 45%;
-}
-
-body {
-    width: 1280px;
-    margin: auto;
-}
-
-#second {
-    padding: 5rem;
-}
-
-#third {
-    background-color: #27AE61;
-    padding: 5rem;
+    margin-left: 43.5%;
 }
 
 footer {
