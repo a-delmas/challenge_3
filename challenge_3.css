@@ -16,8 +16,6 @@ body {
 
 /* -----------------------------------Nav--------------------------------------------- */
 
-
-
 h1 , ul, li {
     display: inline-block;
 }
@@ -26,6 +24,7 @@ h1 {
     width: 20%;
     font-size: 2em;
     text-decoration: none;
+
 }
 
 ul {
@@ -67,7 +66,7 @@ section:nth-child(2n+1) p {
 }
 
 h3 {
-    color: #cacacab4;
+    color: #b8b8b8b4;
     margin-top: 0;
 }
 
@@ -80,12 +79,11 @@ a {
 }
 
 p {
-
     margin-top: 1.8rem;
     margin-bottom: 3rem;
 }
 
-.btnone, .btntwo, .btwthree {
+.btnone, .btntwo, .btnthree {
     padding: 1rem;
     border-radius: 5px 5px; 
     margin-top: .5rem;
@@ -127,8 +125,70 @@ p {
     color: #27AE61;
 }
 
+/* ---------------------------Formulaire------------------------------ */
+
+h4 {
+    color: #b8b8b8b4;
+    font-size: 1.5rem;
+}
+
+form {
+    border: solid 1px lightgray;
+    background-color: #e6e6e6;
+}
+
+span {
+    color: red;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    border-radius: none;
+}
+
+input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px 5px;
+}
+
+#mail {
+    width: 71%;
+}
+
+select {
+    width: 72%;
+    height: 44px;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    margin-top: 10px;
+    border-radius: 5px 5px; 
+    
+}
+
+textarea {
+    width: 72%;
+    margin-top: 10px;
+    border-radius: 10px 10px;
+}
+
+#button {
+    background-color: #27AE61; 
+    color: white;
+    border-radius: 5px 5px; 
+    margin-top: .5rem;
+    padding: 1rem;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
 /* ---------------------------Footer------------------------------ */
 
 footer {
-    padding: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #27AE61;
 }

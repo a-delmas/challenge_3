@@ -26,9 +26,10 @@
                 <li><a href="#">CAREERS</a></li>
                 <li><a href="#">CONTACT US</a></li>
             </ul>
+            <i id = "menutel" class="fas fa-bars"></i>
         </nav>
 
-        <i id = "menutel" class="fas fa-bars"></i>
+        
 
     </header>
 
@@ -61,6 +62,29 @@
         </section>
         
     </main>
+
+    <form action="ok.php">
+
+        <h4>Formulaire d'inscription :</h4>
+
+        <label for="presentation">Full Name <span>*</span></label> 
+        <input type="text" name="first" id="firstname" placeholder="First" size="50" maxlength="10" />
+        <input type="text" name="last" id="lastname" placeholder="Last" size="50" maxlength="10" />
+
+        <label for="email">Email <span>*</span></label> 
+        <input type="email" name="mail" id="mail" size="90" maxlength="10" />
+
+        <label for="subject">Sujet <span>*</span> </label> 
+        <select name="advertise" id="list">
+            <option value="ok">Alright</option>
+            <option value="nope">Nope</option>
+        </select>
+
+        <label for="message">Your message <span>*</span></label> 
+        <textarea name="message" id="msg" cols="30" rows="10"></textarea>
+
+        <label for="button"></label>
+        <input type="submit" name="button" id="button">
 
     <footer>
         <p>UNTITLED ALL RIGHTS RESERVED PHOTOS BY FOTOGRPH DESIGN BY TEMPLATED</p>
